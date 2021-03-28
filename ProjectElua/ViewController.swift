@@ -16,10 +16,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var majorLabel: UILabel!    
     @IBOutlet weak var springClassesLabel: UILabel!
     
+
+    @IBOutlet weak var textView: UITextView!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        myNameLabel.text = "My Name is:"
+        erinLabel.text = "Erin"
+        myMajorLabel.text = "My Major is:"
+        majorLabel.text = "Creative Media"
+        springClassesLabel.text = "My Spring Classes"
+        
+        
+        
     }
 
 

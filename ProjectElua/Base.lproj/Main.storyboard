@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="p6a-07-LR0">
             <objects>
-                <viewController id="WGl-ML-IMa" sceneMemberID="viewController">
+                <viewController id="WGl-ML-IMa" customClass="SecondViewController" customModule="ProjectElua" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Scg-Py-mbh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="2039.1304347826087" y="831.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="PAw-Xd-96g">
             <objects>
-                <viewController id="Vwe-7o-MuW" sceneMemberID="viewController">
+                <viewController id="Vwe-7o-MuW" customClass="ThirdViewController" customModule="ProjectElua" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r3j-e8-Vb6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,50 +49,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Name is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wky-df-Ngn">
-                                <rect key="frame" x="82" y="354" width="94" height="21"/>
+                                <rect key="frame" x="38" y="354" width="132" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Major is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="px3-IJ-Ej5">
-                                <rect key="frame" x="82" y="472" width="92" height="21"/>
+                                <rect key="frame" x="38" y="434" width="129" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Creative Media" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxg-wz-Acb">
-                                <rect key="frame" x="250" y="472" width="114" height="21"/>
+                                <rect key="frame" x="226" y="441" width="162" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Spring Classes:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUH-R1-t0f">
-                                <rect key="frame" x="179" y="527" width="146" height="21"/>
+                                <rect key="frame" x="104" y="511" width="206" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Erin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkB-Rh-jjW">
-                                <rect key="frame" x="242" y="354" width="29" height="21"/>
+                                <rect key="frame" x="280" y="354" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1921" translatesAutoresizingMaskIntoConstraints="NO" id="1UK-he-kLb">
-                                <rect key="frame" x="9" y="149" width="156" height="128"/>
+                                <rect key="frame" x="38" y="164" width="156" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="09_original_seal" translatesAutoresizingMaskIntoConstraints="NO" id="Yk5-JY-Uos">
-                                <rect key="frame" x="216" y="164" width="126" height="99"/>
+                                <rect key="frame" x="226" y="179" width="126" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IXQ-0g-3rG">
-                                <rect key="frame" x="82" y="602" width="240" height="128"/>
+                                <rect key="frame" x="72" y="594" width="270" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -108,13 +108,15 @@
                         <outlet property="erinLabel" destination="NkB-Rh-jjW" id="YaK-Pv-0DN"/>
                         <outlet property="majorLabel" destination="mxg-wz-Acb" id="Y0F-Cx-idD"/>
                         <outlet property="myMajor" destination="px3-IJ-Ej5" id="Mmb-kN-ZRr"/>
+                        <outlet property="myMajorLabel" destination="px3-IJ-Ej5" id="n6l-WF-0yW"/>
                         <outlet property="myNameLabel" destination="Wky-df-Ngn" id="fqf-ah-UE9"/>
                         <outlet property="springClassesLabel" destination="UUH-R1-t0f" id="3EV-Uo-2tF"/>
+                        <outlet property="textView" destination="IXQ-0g-3rG" id="Pdy-cK-V8Y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsB-KM-3GP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="832"/>
+            <point key="canvasLocation" x="57.971014492753625" y="831.69642857142856"/>
         </scene>
         <!--Main tab bar controller-->
         <scene sceneID="0yr-mP-mD4">
