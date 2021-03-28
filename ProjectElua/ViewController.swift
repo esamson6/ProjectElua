@@ -9,6 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var myNameLabel: UILabel!
+    @IBOutlet weak var erinLabel: UILabel!
+    @IBOutlet weak var myMajorLabel: UILabel!
+    @IBOutlet weak var majorLabel: UILabel!    
+    @IBOutlet weak var springClassesLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
